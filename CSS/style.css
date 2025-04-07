@@ -1,0 +1,72 @@
+#titulo {
+    color : hsl(271, 85%, 54%);
+}
+p.texto { /* Select all <p> elements with class "texto" */
+    color : blue;
+}
+p.especial { /* Select all <p> elements with class "especial" */
+    color : red;
+    font-weight : bold;
+}
+
+div p { /* Select all <p> elements inside a <div> */
+    color : rgb(61, 207, 61);
+}
+
+div h2, div h3 { /* Select all <h2> and <h3> elements inside a <div> */
+    color : brown;
+}
+
+* {         /* Select all elements */
+    font-size: 24px;
+    color: chocolate; /* Default color for all elements */
+}
+
+/*
+.color {
+    color : #ff0000;
+.color {
+    color : rgb(0,155,255)
+}
+
+}
+*/
+.color {
+    /* border: 5px black solid; */
+    /*
+    dotted
+    dashed
+    double
+    groove
+    ridge
+    inset
+    outset
+    none
+    hidden 
+     */
+    border-style: solid ;
+    border-width: 5px;
+    border-color: rgb(62, 83, 203);
+    border-radius: 5px;
+}
+
+#fondo {  /* Select the element with id "fondo" */
+    background-color: rgb(56, 233, 174);
+   /*  opacity: 0.8; */ /* Opacity of the background color */
+   /*  background-image: url("coffee.jpg"); */
+    height: 200px;
+    /* background-size: 400px 200px; /* Size of the background image */
+    /* background-repeat: no-repeat; /* Do not repeat the background image */
+    /* background-position: center top; /* Position of the background image */ 
+    background: rgb(243, 101, 101) url("coffee.jpg") repeat-y center bottom / 100px 100px; /* Shorthand for background properties */
+}
+
+.margen {
+    background-color:coral ;
+    margin: 15px;  /* Top, right, bottom, left */
+    padding: 30px 15px; /* Top, right, bottom, left */
+    border: solid 1px black; /* Border around the element */
+    height: 100px;
+    width: 50px;
+    overflow: scroll;
+}
