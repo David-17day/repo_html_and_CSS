@@ -1,0 +1,16 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.myheading {
+    background-color: #f1f1f1;
+    color: #d12b2b;
+    text-align: center;
+    padding: 50px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column
+    ;
+}

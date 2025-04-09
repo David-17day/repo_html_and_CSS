@@ -1,0 +1,99 @@
+<!DOCTYPE html> <!--   Indica que es html5  -->
+<html lang="en">
+<head>
+    <title>Mi primera web</title>
+    <style>
+        table, th, td { 
+            border: 1px solid black;         
+        }
+    </style>
+</head>
+<body> 
+    <table style="width: 500px;">
+        <thead>
+            <tr> <!--  Fila de la tabla  -->
+                <th> producto </th> <!--  Encabezado de la tabla  -->
+                <th> Precio </th>
+            </tr>
+        </thead>
+        <tbody> <!--  Cuerpo de la tabla  -->
+            <tr> <!--  Fila de la tabla  -->
+                <td> Televisor </td> <!--  Celda de la tabla  -->
+                <td> 1500 soles </td>
+            </tr>
+            <tr>
+                <td> Celular </td>
+                <td> 800 soles </td>
+            </tr>
+            <tr>
+                <td> Tablet </td>
+                <td> 1200 soles </td>
+            </tr>
+            <bod>
+                <td> Consola </td>
+                <td> 2000 soles </td>
+            <tr>
+            <td> Laptop </td>
+            <td> 3500  soles </td>
+            </tr>
+            <tr>
+            <td> Mochila </td>
+            <td> 500  soles </td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <td></td>
+            <td> Total: 9500 soles </td> <!--  Pie de la tabla  -->
+        </tfoot>
+    </table>
+
+
+
+    <ul> <!--  Lista desordenada  -->
+        <li> Elemento 1 </li>
+        <li> Elemento 2 </li>
+        <li> Elemento 3 </li>
+        <li> Elemento 4 </li>
+        <br> <!--  Salto de linea  -->
+    </ul>
+    <ol> <!--  Lista ordenada  -->
+        <li value="20"> Elemento 1 </li>
+        <li> Elemento 2 </li>
+        <li> Elemento 3 </li>
+        <li> Elemento 4 </li>
+        <li>
+            <ol> <!--  Lista ordenada dentro de una lista ordenada  -->
+                <li style="list-style-type: lower-roman;"> Sub Elemento 1 </li>
+                <li style="list-style-type: lower-roman;"> Sub Elemento 2 </li>
+                <li style="list-style-type: lower-roman;"> Sub Elemento 3 </li>
+        </li>
+    </ol>
+
+
+    <form action="/formulario" method="GET"> <!--  Indica el metodo de envio de datos  -->
+        <label for="nombre"> Nombre </label>
+        <input value="Juan" id="nombre" type="text" name="nombre" placeholder="ejm: Juan Diego"/>
+        <br>
+        <label for="apellido"> Apellido </label>
+        <input value="Rondon" id="apellido" type="text" name="apellido" placeholder="ejm: Garcia Lopez"/>
+        <br>
+        <label for="comentario"> Comentario </label>
+        <textarea id="comentario" name="comentario" rows="5" cols="30" placeholder="ejm: Este es un comentario"> Texto por defecto</textarea>
+        <br>
+        <button type="summit"> Tipo summit </button>  <!--  Envia el formulario  -->
+        <button type="bottom"> Tipo bottom </button>  <!--  más personalizable -->
+        <button type="reset"> Tipo reset </button>   
+
+    </form>
+    <h1> Mi primer heading </h1>
+    <h2> Mi segundo heading </h2>
+    <p> Este es un parrafo de texto </p>
+    <p> Este es otro parrafo de texto </p>
+    <hr>
+    <h2> Dragon Master </h2>
+    <br>
+    <a target="_blank" href="https://www.google.com"> Ir a google </a>
+    <img src="img/FONDO_DRAGON.png" width="400"/>
+
+</body>
+</html>

@@ -1,0 +1,97 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    background-image: url('c:\Users\MSI\OneDrive\Documentos\LOGO_DRAGON_NEGRO.webp'); /* Reemplaza con la ruta de tu imagen */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Para que la imagen de fondo no se desplace */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.contenedor {
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco semi-transparente */
+    /* Agrega o modifica la siguiente línea con la ruta correcta a tu imagen */
+    background-image: url("img/FONDO_DRAGON.png");
+    background-size: cover; /* Para que la imagen cubra el recuadro */
+    background-repeat: no-repeat; /* Para evitar que la imagen se repita */
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    padding: 30px; 
+    width: 300px; /* O el ancho que tengas definido */
+    position: relative; /* Para el posicionamiento absoluto del logo */
+    /* Otros estilos que ya tengas para el .contenedor */
+}
+
+.logo {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 70px; /* Ajusta el tamaño del logo */
+}
+
+.logo img {
+    max-width: 110%;
+    height: auto;
+    display: block; /* Evita espacio extra debajo de la imagen */
+}
+
+.formulario-registro h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.campo {
+    margin-bottom: 15px;
+}
+
+.campo label {
+    display: block;
+    margin-bottom: 5px;
+    color: #8c3d06;
+    font-weight: bold;
+}
+
+.campo input[type="text"],
+.campo input[type="email"],
+.campo input[type="password"] {
+    width: calc(100% - 12px);
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.ya-tienes-cuenta {
+    text-align: center;
+    margin-top: 15px;
+    color: #777;
+}
+
+.ya-tienes-cuenta a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.ya-tienes-cuenta a:hover {
+    text-decoration: underline;
+}
+
+button[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
